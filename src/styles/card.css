@@ -1,0 +1,31 @@
+/* styles.css */
+.movies {
+    text-align: center;
+}
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters input, .filters select {
+    margin: 0 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
